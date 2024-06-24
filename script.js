@@ -36,12 +36,13 @@ function efectoConocimientos()
         habilidades[2].classList.add("csharp");
         habilidades[3].classList.add("c");
         habilidades[4].classList.add("python");
-        habilidades[5].classList.add("php"); 
-        habilidades[6].classList.add("comunicacion"); 
-        habilidades[7].classList.add("trabajoEnEquipo"); 
-        habilidades[8].classList.add("creatividad"); 
-        habilidades[9].classList.add("dedicacion"); 
-        habilidades[10].classList.add("manejoProyectos");        
+        habilidades[5].classList.add("php");
+        habilidades[6].classList.add("sql"); 
+        habilidades[7].classList.add("comunicacion"); 
+        habilidades[8].classList.add("trabajoEnEquipo"); 
+        habilidades[9].classList.add("creatividad"); 
+        habilidades[10].classList.add("dedicacion"); 
+        habilidades[11].classList.add("manejoProyectos");        
     }
 }
 

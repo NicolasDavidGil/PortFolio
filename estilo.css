@@ -116,64 +116,72 @@ html{
     width: 42px;
     height: 42px;
     line-height: 42px;
-    margin: 40px 5px;
+    margin: 20px 5px;
     font-size: 20px;
     transition: .3s;
 }
-.inicio .contenido-banner .redes h4{
+.inicio .contenido-banner .redes ul{
     margin-top: 0px;
+    display: flex;
+    list-style: none;
     visibility: hidden;
 }
+.inicio .contenido-banner .redes ul li{
+    color: #1cb698;
+    position: sticky;
+    margin-left: 5px;
+}
+
 .inicio .contenido-banner .redes #iconFacebook:hover{
     background-color: #1cb698;
-    width: 60px;
-    height: 50px;
+    width: 50px;
+    height: 45px;
 }
-.inicio .contenido-banner .redes #iconFacebook:hover ~ #textFacebook{
+.inicio .contenido-banner .redes #iconFacebook:hover ~ #listText #textFacebook{
     visibility: visible;
     color: #1cb698;
-    font-size: 30px;
+    font-size: 20px;
 }
 .inicio .contenido-banner .redes #iconLinkedin:hover{
     background-color: #1cb698;
-    width: 60px;
-    height: 50px;
+    width: 50px;
+    height: 45px;
 }
-.inicio .contenido-banner .redes #iconLinkedin:hover ~ #textLinkedin{
+.inicio .contenido-banner .redes #iconLinkedin:hover ~ #listText #textLinkedin{
     visibility: visible;
     color: #1cb698;
-    font-size: 30px;
+    font-size: 20px;
 }
 .inicio .contenido-banner .redes #iconGitHub:hover{
     background-color: #1cb698;
-    width: 60px;
-    height: 50px;
+    width: 50px;
+    height: 45px;
 }
-.inicio .contenido-banner .redes #iconGitHub:hover ~ #textGitHub{
+.inicio .contenido-banner .redes #iconGitHub:hover ~ #listText #textGitHub{
     visibility: visible;
     color: #1cb698;
-    font-size: 30px;
+    font-size: 20px;
 }
 .inicio .contenido-banner .redes #iconInstagram:hover{
     background-color: #1cb698;
-    width: 60px;
-    height: 50px;
+    width: 50px;
+    height: 45px;
 }
-.inicio .contenido-banner .redes #iconInstagram:hover ~ #textInstagram{
+.inicio .contenido-banner .redes #iconInstagram:hover ~ #listText #textInstagram{
     visibility: visible;
     color: #1cb698;
-    font-size: 30px;
+    font-size: 20px;
 }
 /*SECCION SOBRE MI*/
 
 .sobremi{
     /* background-color: #1e2326; */
-    background-image: url("img/FondoTop.jpg") ;
+    background-image: url("img/fondointeres.avif") ;
     color: #fff;
     padding: 50px 20px;
 }
 .sobremi .contenido-seccion{
-    max-width: 1100px;
+    max-width: 1000px;
     margin: auto;
 }
 .sobremi h2{
@@ -186,6 +194,7 @@ html{
     font: 18px;
     line-height: 22px;
     margin-bottom: 20px;
+    margin-right: 50px;
 }
 .sobremi .contenido-seccion p span{
     color: #1cb698;
@@ -287,6 +296,9 @@ html{
     text-align: center;
     padding: 20px 0;
 }
+.skills p{
+    text-align: center;
+}
 .skills .fila{
     display: flex;
 }
@@ -336,7 +348,7 @@ html{
 }
 @keyframes javascript{
     0%{width: 0%;}
-    100%{width: 50%;}
+    100%{width: 60%;}
 }
 
 .skills .skill .htmlcss{
@@ -345,7 +357,7 @@ html{
 }
 @keyframes htmlcss{
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .csharp{
@@ -363,7 +375,7 @@ html{
 }
 @keyframes c{
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 95%;}
 }
 
 .skills .skill .python{
@@ -381,7 +393,7 @@ html{
 }
 @keyframes php{
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 50%;}
 }
 
 .skills .skill .sql{
@@ -390,7 +402,7 @@ html{
 }
 @keyframes sql{
     0%{width: 0%;}
-    100%{width: 30%;}
+    100%{width: 95%;}
 }
 
 .skills .skill .comunicacion{
