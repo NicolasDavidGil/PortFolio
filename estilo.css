@@ -174,15 +174,20 @@ html{
 }
 /*SECCION SOBRE MI*/
 
-.sobremi{
-    /* background-color: #1e2326; */
-    background-image: url("img/fondointeres.jpg") ;
+.sobremi{    
     color: #fff;
     padding: 50px 20px;
+    background-color: #131517;
+    background-image: url(img/fondointeresdos.avif);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .sobremi .contenido-seccion{
     max-width: 1000px;
-    margin: auto;
+    margin: auto;    
 }
 .sobremi h2{
     font-size: 48px;
